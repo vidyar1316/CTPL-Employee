@@ -1,0 +1,118 @@
+
+
+.main{
+    width: 100%;
+    min-height: 600px;
+    background-color: #E0F2A8;    
+  
+}
+ .approved{
+    width: 630px; 
+    height: 70px; 
+    margin: 20px;
+    padding: 15px;
+    background: rgba(28, 47, 186, 0.25); 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.50); 
+    border-radius: 20px; 
+    border: 2px black solid;
+    left: 0;
+    float: left;
+    text-align: left;
+    font-size: 25px;
+  }
+  .rejected{
+    width: 630px; 
+    height: 70px;
+    padding: 15px;
+    margin: 20px; 
+    background: rgba(28, 47, 186, 0.25); 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.50); 
+    border-radius: 20px; 
+    border: 2px black solid;
+    right: 0;
+    float: right;
+    font-size: 25px;
+    text-align: left;
+  }
+    .left_box{
+    width: 630px; 
+    height: 450px;
+    background : white;
+    border-Radius: 25px;
+    margin: 20px;   
+    display: block;
+    float: left;
+  }
+  
+  .left_box .submitted{
+    width: 630px;
+    height: 60px; 
+    background: #A5D38E;
+    border-Radius: 20px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 12px;
+  }
+  .right_box{
+    width: 630px; 
+    height: 450px;
+    background : white;
+    border-Radius: 25px;
+    margin: 20px;   
+    display: block;
+    float: right; 
+    
+  }
+  .right_box .select{
+    width: 630px;
+    height: 60px;
+    padding: 12px;
+    background: #A5D38E;
+    border-Radius: 20px;
+    float: right;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  #buttons{
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    
+  }
+  .btnAdd{
+    width: 350px;
+    height: 60;
+    background: #1C2FBA;
+    box-Shadow: 0px 7px 6px rgba(0, 0, 0, 0.50);
+    padding: 12px;
+    margin: 120px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;   
+  }
+  .btnEdit{
+    width: 350px;
+    height: 60;
+    background: #1C2FBA;
+    box-Shadow: 0px 7px 6px rgba(0, 0, 0, 0.50);
+    padding: 12px;
+    margin: 120px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px; 
+  }
+  .btnView{
+    width: 350px;
+    height: 60;
+    background: #1C2FBA;
+    box-Shadow: 0px 7px 6px rgba(0, 0, 0, 0.50);
+    padding: 12px;
+    margin: 120px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px; 
+  }
+
+  

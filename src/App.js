@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
+
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import NavPages from './components/NavPages';
+// import CreateEmployee from './components/Admin/Employee/CreateEmployee';
+// import SearchEmployee from './components/Admin/Employee/SearchEmployee';
+// import UploadEmployees from './components/Admin/Employee/UploadEmployees';
+// import CreateProject from './components/Admin/Employee/CreateProject';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavPages></NavPages>
+      
+        
+     
     </div>
   );
-}
+ }
 
 export default App;
