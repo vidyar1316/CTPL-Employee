@@ -79,7 +79,7 @@ const DeleteEmployee = employeeData[employeeData.length - 1];
         // getEmployeeData()    
         Swal.fire({icon: 'success',
     title: 'Success!',
-    text: 'File Uploaded Successfully', showConfirmButton: true}).then(()=> {window.location.reload()})  
+    text: 'File deleted Successfully', showConfirmButton: true}).then(()=> {window.location.reload()})  
    
     
 
